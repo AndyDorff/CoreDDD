@@ -1,0 +1,28 @@
+{
+    "name": "mp/core",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andy Dorff",
+            "email": "andrew.dorofieiev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Core\\Providers\\CoreServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Core\\": ""
+        }
+    },
+    "require": {
+        "webmozart/assert": "^1.8"
+    }
+}
